@@ -1,7 +1,10 @@
-streamlit  
-python-dotenv  
-langchain-community  
-langchain-core  
-langchain-openai  
-langchain-text-splitters  
-faiss-cpu  
+streamlit==1.24.0  # Ensure compatibility with st.chat_message, st.chat_input, etc.  
+streamlit-scroll-to-top  # No version specified, install latest compatible  
+python-dotenv==1.0.0  # To handle environment variable loading  
+langchain  # Keep this up-to-date for advanced AI integrations  
+langchain-community  # Extensions for `WebBaseLoader` and `FAISS`  
+langchain-openai  # Includes `AzureChatOpenAI` and `AzureOpenAIEmbeddings`  
+langchain-text-splitters  # For `RecursiveCharacterTextSplitter`  
+langchain-core  # Includes core elements like `PromptTemplate`, `StrOutputParser`, etc.  
+beautifulsoup4==4.12.0  # For parsing and extracting content from web pages  
+requests==2.31.0  # For handling HTTP requests  
