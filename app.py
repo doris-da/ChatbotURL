@@ -32,7 +32,7 @@ from langchain.schema import Document
 # Set page title and chatbot icon  
 st.set_page_config(  
     page_title="HKU Business School Chatbot",  
-    page_icon="C:/Users/Doris_Jiao/OneDrive - The University Of Hong Kong/Desktop/Revelio/python code/chatpdf/chatbot_icon3.png"  # Replace with the actual path to your icon  
+    page_icon="chatbot_icon3.png"  # Replace with the actual path to your icon  
 )  
 
 
@@ -281,8 +281,8 @@ else:
     #                 st.markdown(message["html_refs"], unsafe_allow_html=True)  
     
     # Set custom user and assistant avatars as global variables for consistent use  
-    USER_ICON = "C:/Users/Doris_Jiao/OneDrive - The University Of Hong Kong/Desktop/Revelio/python code/chatpdf/chatbot_icon4.png"  
-    ASSISTANT_ICON = "C:/Users/Doris_Jiao/OneDrive - The University Of Hong Kong/Desktop/Revelio/python code/chatpdf/chatbot_icon3.png"  
+    USER_ICON = "chatbot_icon4.png"  
+    ASSISTANT_ICON = "chatbot_icon3.png"  
 
     # Display chat messages from history on app rerun  
     with chat_container:  
